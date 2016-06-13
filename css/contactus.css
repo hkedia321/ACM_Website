@@ -1,0 +1,83 @@
+/*Developed by Harshit Kedia
+     email: geek.harshitkedia@gmail.com
+     VIT ACM Student's Chapter
+*/
+/*The following code for every css except mystyle.css*/
+@media (max-width: 768px){
+	#content-row{
+		margin-top: -10% !important;
+	}
+}
+.headerContent{
+	position: relative;
+}
+@media (max-width:766px){
+	#header-row{
+		position: absolute;
+		left: 2%;
+		top: 0px;
+	}
+	.item-242 .separator{
+		font-size: 1.3rem;
+	}
+}
+@media (min-width:768px){
+	#header-row{
+		position: absolute;
+		left: 6%;
+		bottom:-28px;
+	}
+}
+/*code ends*/
+#content-top h2,#content-top #conform{
+	display: block;
+	width: 100%;
+	min-width: 95%;
+}
+#conform a{
+	cursor: pointer;
+}
+.red{
+	color: red;
+}
+#conform label{
+	line-height: 300%;
+}
+#conform textarea{
+	height: 240px !important;
+}
+#conform button{
+	padding-left: 2%;
+	
+}
+#address p{
+	text-align: center;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	font-size: 150%;
+	text-decoration: italic;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	min-width: 100%;
+	line-height: 1.7rem;
+}
+.emailpic{
+	display: inline-block;
+	width: 4%;
+	min-width: 30px;
+
+}
+#content-top h2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+  @media (max-width:500px){
+    #content-row{
+        margin-top: -11.5rem !important;
+    }
+    .subconform{
+    	margin-left: 0.8rem;
+    }
+}

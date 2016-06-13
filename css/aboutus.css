@@ -1,0 +1,58 @@
+/*Developed by Harshit Kedia
+     email: geek.harshitkedia@gmail.com
+     VIT ACM Student's Chapter
+*/
+/*The following code for every css except mystyle.css*/
+@media (max-width: 768px){
+	#content-row{
+		margin-top: -10% !important;
+	}
+}
+.headerContent{
+	position: relative;
+}
+@media (max-width:766px){
+	#header-row{
+		position: absolute;
+		left: 2%;
+		top: 0px;
+	}
+	.item-242 .separator{
+		font-size: 1.3rem;
+	}
+}
+@media (min-width:768px){
+	#header-row{
+		position: absolute;
+		left: 6%;
+		bottom:-28px;
+	}
+}
+/*code ends*/
+#content-top h2{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.aligncenter{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content-top p{
+	display: block;
+	min-width: 85%;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8rem;
+
+}
+  @media (max-width:500px){
+    #content-row{
+        margin-top: -12rem !important;
+    }
+    #content-top-row p{
+    	text-align: center;
+    }
+}

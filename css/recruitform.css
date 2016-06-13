@@ -1,0 +1,96 @@
+/*Developed by Harshit Kedia
+     email: geek.harshitkedia@gmail.com
+     VIT ACM Student's Chapter
+     */
+     /*The following code for every css except mystyle.css*/
+     @media (max-width: 768px){
+     	#content-row{
+     		margin-top: -10% !important;
+     	}
+     }
+     .headerContent{
+     	position: relative;
+     }
+     @media (max-width:766px){
+     	#header-row{
+     		position: absolute;
+     		left: 2%;
+     		top: 0px;
+     	}
+     	.item-242 .separator{
+     		font-size: 1.3rem;
+     	}
+     }
+     @media (min-width:768px){
+     	#header-row{
+     		position: absolute;
+     		left: 6%;
+     		bottom:-28px;
+     	}
+     }
+     /*code ends*/
+     #content-row h2
+     {
+     	text-align: center;
+     }
+     #content-top-row{
+          padding:2rem;
+          margin-right: 3rem;
+     }
+     
+@media (max-width:600px){
+      #content-top-row{
+          padding:0rem;
+          margin-right: 0rem;
+          margin-left: 0px;
+     }
+     #content-row{
+          padding:0rem;
+          margin-left: 0px;
+          margin-right: 0px;
+     }
+     .marginzero{
+          margin-left: -10px !important;
+          margin-right: 0px !important;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+          min-width: 93vw;
+     }
+     #aside-right{
+          margin-left: 1rem;
+     }
+}
+.red{
+     color: red;
+}
+@media (min-width: 700px){
+     #content-row{
+          margin-left: 4rem;
+     }
+     .thodaside{
+          margin-left: 0rem;
+     }
+}
+.smallermob{
+     font-size: 90%;
+     display: inline-block;
+     margin: 0px !important;
+     padding: 0px !important;
+}
+label{
+     line-height: 2rem;
+}
+input[type="checkbox"]{
+
+     width: 1.3rem;
+     height:1.3rem;
+     border-radius: 2%;
+}
+#skillsDiv1,#skillsDiv2,#skillsDiv3{
+     display: none;
+}
+  @media (max-width:500px){
+    #content-row{
+        margin-top: -12rem !important;
+    }
+}

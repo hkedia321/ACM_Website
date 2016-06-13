@@ -1,0 +1,105 @@
+/*Developed by Harshit Kedia
+     email: geek.harshitkedia@gmail.com
+     VIT ACM Student's Chapter
+*/
+/*The following code for every css except mystyle.css*/
+@media (max-width: 768px){
+	#content-row{
+		margin-top: -10% !important;
+	}
+}
+.headerContent{
+	position: relative !important;
+}
+@media (max-width:766px){
+	#header-row{
+		position: absolute !important;
+		left: 2% !important;
+		top: 0px !important;
+	}
+	.item-242 .separator{
+		font-size: 1.3rem !important;
+	}
+}
+@media (min-width:768px){
+	#header-row{
+		position: absolute !important;
+		left: 6% !important;
+		bottom:-28px !important;
+	}
+}
+/*code ends*/
+#content-top h2{
+	text-align: center !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+#fullgallery .row{
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+.galpic{
+	
+
+}
+
+@media screen and (min-width: 768px){
+	.galpic{
+		max-height:10.5rem ;
+		min-height:10.5rem;
+
+	}
+}
+@media screen and (min-width:1000px){
+	.galpic{
+		max-height:10.5rem ;
+		min-height:10.5rem;
+		min-width: 15.5rem;
+		max-width: 15.5rem;
+
+	}
+}
+#footer-wrapper{
+	margin-top: 4%;
+}
+#fullgallery button{
+	color: rgb(51,51,51);
+	background-color:rgb(256,256,256);
+	text-shadow:0 1px 1px rgba(255, 255, 255, 0.75);
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	border:1px solid #bbbbbb;
+	line-height: 30px;
+	border-radius: 5px;
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	transition:all 0.3s 0.05s;
+}
+#fullgallery button:hover{
+	color: blue;	
+}
+#fullgallery .active{
+	color: #fff;
+	background-color: #222;
+}
+#fullgallery #buttonsdiv{
+	margin-left: 2.2rem;
+}
+  @media (max-width:500px){
+    #content-row{
+        margin-top: -12rem !important;
+    }
+    button{
+    	display: block;
+    	min-width: 70vw;
+    	margin-left: 10px;
+    }
+    .worlds img{
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-left: 10px;
+    }
+}
