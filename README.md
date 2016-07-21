@@ -1,2 +1,1 @@
-VIT ACM Website created by VIT ACM members
-domain: acmvit.com
+VIT ACM previous Website
